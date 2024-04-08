@@ -39,4 +39,8 @@ export default {
     outDir: "../public",
     },
 };
-출처: https://webstoryboy.co.kr/1924 [WEBSTORYBOY:티스토리]
+
+## 프로젝트 유동석이 진행합니다
+마크업다운이 뭔지 몰라요    
+
+배워가는 중 입니다.
