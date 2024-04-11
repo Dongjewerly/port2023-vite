@@ -24,7 +24,35 @@
     
 
     <header id="header" role="banner">
-        header
+        <!-- mdn aria 웹접근성에 맞춰 코딩 -->
+        <div class="header_inner">
+            <div class="header_logo">
+                <h1>
+                    <a href="#">portfolio <em>vite</em></a>
+                </h1>
+            </div>
+            <nav class="header_nav ">
+                <ul>
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#skill">skill</a></li>
+                    <li><a href="#site">site</a></li>
+                    <li><a href="#port">port</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="#footer">footer</a></li>
+                </ul>
+            </nav>
+            <div 
+            class="header_nav_mobile" 
+            id="headerToggle" 
+            aria-controls="primary-menu" 
+            aria-expanded="false"
+            role="button"
+            tabindex="0" 
+            >
+            <!--접근성을 지키기 위해 tabindex사용-->
+                <span></span>
+            </div>
+        </div>
     </header>
     <!-- //header -->
 
